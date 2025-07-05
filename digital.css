@@ -257,7 +257,7 @@ body {
     }
 
 .left-column {
-    width: calc(100%*3/12);
+    width: calc(100%/4);
     /*25%*/
     display: flex;
     flex-direction: column;
@@ -290,7 +290,7 @@ body {
 }
 
 .right-column {
-    width: calc(100%*3/12);
+    width: calc(100%4);
     /*25%*/
     display: flex;
     flex-direction: column;
@@ -453,7 +453,7 @@ body {
 }
 
 
-.card5 .text {
+.card5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -769,7 +769,6 @@ body {
 
 .logo-section p {
     margin-top: 20px;
-    line-height: 1.6;
     font-weight: bold;
 }
 
